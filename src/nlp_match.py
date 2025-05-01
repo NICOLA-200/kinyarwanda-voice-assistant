@@ -1,11 +1,11 @@
 from fuzzywuzzy import fuzz
 
 qa_pairs = {
-    "Mwaramutse, uvuze iki?": "Mwaramutse! Nvuze Kinyarwanda.",  # Hello, what do you speak?
+    "Mwaramutse ?": "Mwaramutse neza!",  # Hello, what do you speak?
     "Umeze ute?": "Meze neza, murakoze!",                    # How are you?
-    "Iri joro ryiza?": "Yego, ryiza cyane!",                 # Is the weather nice?
-    "Urashobora kunganira?": "Yego, ndashobora kuganira!",    # Can you help me?
-    "Amakuru yawe ni ayahe?": "Amakuru yanjye ni meza!"      # What is your news?
+    "Ijoro ryiza?": "Yego, ryiza cyane!",                 # Is the weather nice?
+    " witwa nde?": "nitwa gpt!",    # Can you help me?
+    "Amakuru ?": "Amakuru yanjye ni meza!"      # What is your news?
 }
 
 def match_question(transcribed_text, threshold=80):

@@ -10,4 +10,4 @@ def record_audio(filename, duration=5, sample_rate=16000):
     print(f"Saved to {filename}")
 
 if __name__ == "__main__":
-    record_audio("audio_files/input1.wav", duration=5)
+    record_audio("audio_files/input5.wav", duration=5)
